@@ -1,0 +1,230 @@
+/* 
+    Document   : style
+    Created on : 09-feb-2013, 9:21:10
+    Author     : andres
+    Description:
+        Purpose of the stylesheet follows.
+*/
+html{
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    top: 0;
+}
+
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Cabin', Arial;
+    font-size: 100%;
+
+}
+h1 {
+    font-family: 'Oleo Script Swash Caps', cursive; 
+    font-weight: 400; 
+    font-size: 500%;
+    margin-bottom: 0;
+}
+
+h3{
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 130%;
+}
+
+
+h4 {
+    text-align: center;
+    font-family: 'Oleo Script Swash Caps', cursive; 
+    font-weight: 400; 
+    font-size: 300%;
+    color: #DAB400;
+    margin: 10px 0 30px;
+}
+
+#logo{
+    text-align: center;
+}
+
+#chaplin-logo{
+    position: fixed;
+    margin-left: 112px;
+    text-align: center;
+    width: 30%;
+    margin-top: 140px;
+}
+
+#searchForm{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    background-image: url("http://mariapaz.co/labs/cinemainfo/img/cane2.png");
+    background-position: right -16px;
+    background-repeat: no-repeat;
+    height: 100px;
+    overflow: hidden;
+    width: auto;
+}
+
+#wrapper{
+    display: none;
+    left: 175px;
+    top: 55px;
+    position: relative;
+    width: 55%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    opacity: 0;
+    -webkit-transition: opacity 1s, -webkit-transform 0.5s;
+    -webkit-transform: translateX(40px);
+    -ms-transition: opacity 1s, -ms-transform 0.5s;
+    -ms-transform: translateX(40px);
+    -o-transition: opacity 1s, -o-transform 0.5s;
+    -o-transform: translateX(40px);
+    -moz-transition: opacity 1s, -moz-transform 0.5s;
+    -moz-transform: translateX(40px);
+}
+
+#inputSearch{
+    padding: 20px 0 0 100px;
+    width: 490px;
+}
+
+#searchForm #title {
+    height: 30px;
+    border: 1px solid #CCC;
+    padding: 0 1%;
+    width: 200px;
+    
+}
+
+#searchForm #year {
+    height: 30px;
+    border: 1px solid #CCC;
+    padding: 0 1%;
+    width: 100px;
+    
+}
+
+#searchForm input:focus{
+    outline: 0;
+    border: 1px solid #0066A2;
+}
+
+label {
+    font-family: 'Oleo Script Swash Caps', cursive; 
+    font-weight: 400; 
+    color: #DAB400;
+    font-size: 120%;
+    padding: 0 12px 0 20px;
+}
+
+#wrapper #searchForm div{
+    float: left;
+}#DAB400;
+
+#buttonStay{
+    width: 6%;
+    height: 32px;
+    margin-left: 1%;
+    padding-top: 20px;
+}
+
+#buttonStay button{
+    -webkit-appearance: none;
+    border: 0;
+    background: #DAB400;
+    color: white;
+    height: 32px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+.initWeb{
+    -webkit-transform: translateX(0px) !important;
+    -ms-transform: translateX(0px) !important;
+    -o-transform: translateX(0px) !important;
+    -moz-transform: translateX(0px) !important;
+    opacity: 1 !important;
+}
+
+#logo{
+    height: 190px;
+    overflow: hidden;
+    margin-top: 80px;
+    -webkit-transition: opacity 1s, height 0.5s;
+    -ms-transition: opacity 1s, height 0.5s;
+    -o-transition: opacity 1s, height 0.5s;
+    -moz-transition: opacity 1s, height 0.5s;
+}
+
+.closeLogo{
+    height: 0 !important;
+    margin-top: 0 !important;
+}
+
+#found{
+    display: none;
+    float: right;
+    margin: 50px 75px 50px 0;
+    width: 655px;
+    opacity: 0;
+    -webkit-transition: opacity 1s, -webkit-transform 0.5s;
+    -webkit-transform: translateX(40px);
+    -ms-transition: opacity 1s, -ms-transform 0.5s;
+    -ms-transform: translateX(40px);
+    -o-transition: opacity 1s, -o-transform 0.5s;
+    -o-transform: translateX(40px);
+    -moz-transition: opacity 1s, -moz-transform 0.5s;
+    -moz-transform: translateX(40px);
+}
+
+#found img {
+    margin: 0 20px 20px 0;
+    float: left;
+}
+
+.linkGreen{
+    color: green;
+}
+
+.description{
+    margin-top: 20px;
+}
+
+.itemResult{
+    display: none;
+}
+
+#section1{
+    display: block;
+}
+
+#paginator{
+    display: none;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    opacity: 0;
+    -webkit-transition: opacity 1s, -webkit-transform 0.5s;
+    -webkit-transform: translateX(40px);
+    -ms-transition: opacity 1s, -ms-transform 0.5s;
+    -ms-transform: translateX(40px);
+    -o-transition: opacity 1s, -o-transform 0.5s;
+    -o-transform: translateX(40px);
+    -moz-transition: opacity 1s, -moz-transform 0.5s;
+    -moz-transform: translateX(40px);
+}
+
+#arrowPrevious{
+    display: none;
+}
+
+.alert{
+    text-align: center;
+}
