@@ -1,7 +1,7 @@
 ¿Qué es Cinemainfo?
 ==========
 
-Aplicación web que realiza consultas a una libre de api de IMDB.
+Aplicación web que realiza consultas a una api libre de IMDB.
 Fue utilizada la librería PHP creada por Jogi Silalahi "IMDB Wrapper API" y modificada para recibir los datos capturados por el formulario a través de campos específicos.
 
 Esta aplicación es un ejemplo de cómo trabajan conjuntamente los lenguajes web: HTML, CSS, JavaScript (Jquery) y PHP.
